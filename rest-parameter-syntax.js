@@ -8,7 +8,7 @@ const sumAll = (a, b, c) => a + b + c;
 let sum = sumAll(1, 2, 3);
 console.log("Sum:", sum)
 
-// Extra arguments are ignored (because the function when defined, takes 3 parameters, any extra parameters are ignored)
+// Extra arguments are ignored (because the function, when defined, takes 3 parameters)
 let sum2 = sumAll (1, 2, 3, 4, 5, 6);
 console.log("Sum2:", sum2)
 
